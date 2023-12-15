@@ -1,3 +1,6 @@
+### 关于kernel需要配备的第三方库：
+- 需要numpy, pandas, statsmodels, seaborn, matplotlib
+
 ### 关于回测系统的使用：
 - 原则上用户只需要引入BackTest模块，这个模块中提供了两个回测类，命名为Single_BackTest和 Multiple_BackTest，您应当使用这两个类创建实例，然后使用这些实例的fit方法或者multiple_signals_fit方法载入您的信号，在使用show，LnS_PnL_show方法查看结果。
 - 如果上面这个流程让您觉得有些抽象，请查看 ./BackTest/sample.ipynb 这个文件给出了相对完整的使用示例。
